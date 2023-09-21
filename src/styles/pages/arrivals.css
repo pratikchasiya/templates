@@ -1,0 +1,17 @@
+.arrival{
+    padding: 80px 0;
+    overflow: hidden;
+}
+.cardimg{
+    border-radius: 12px;
+    height: 432px;
+    background-color: #bbbbbb;
+}
+.space{
+    padding: 0 40px;
+}
+.arrivalimg img{
+    border-radius: 12px;
+    border-top-right-radius: 100px;
+   
+}

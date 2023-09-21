@@ -1,0 +1,18 @@
+.supplier{
+    padding: 80px 0;
+    background-color: var(--white-color);
+}
+.qr{
+    width: 224px;
+    aspect-ratio: 1;
+}
+.qr img{
+    width: 100%;
+}
+.logos img{
+    max-width: 96px;
+    max-height: 96px;
+    background-color: #bbbbbb;
+    padding: 12px;
+    border-radius: 12px;
+}

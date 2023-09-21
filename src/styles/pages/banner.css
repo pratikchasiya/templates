@@ -1,0 +1,17 @@
+.section1 {
+    background-image: url('../../assets/images/pexels-aphiwat-chuangchoem-350417-1920x1280.jpeg');
+    /* min-height: 610px; */
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banner {
+    padding: 160px 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    min-height: 610px;
+    display: flex;
+    align-items: center;
+}

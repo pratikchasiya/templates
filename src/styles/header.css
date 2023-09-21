@@ -1,0 +1,38 @@
+header{
+    padding: 0 40px;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+    color:var(--primary-color);
+    font-family: var( --primary-font);
+    margin-top: 18px;
+}
+.nav{
+    min-height: 112px;
+    background-color: var(--white-color);
+}
+.link{
+    color: var(--primary-color)!important;
+    font-weight: 500 !important;
+    padding: 0 18px !important;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.btn1{
+   padding: 9px 24px;
+   background-color: var(--primary-color);
+   color: var(--white-color);
+   border-radius: 1000px;
+   font-family: var(--primary-font);
+   font-size: 20px;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+}
+.btn1:hover{
+    text-decoration: underline;
+}

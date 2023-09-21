@@ -1,0 +1,20 @@
+.kitchen {
+    background-image: url('../../assets//images//pexels-mark-mccammon-2724748-1920x1280.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 610px;   
+    margin-top: 50px !important;
+}
+
+.ktc {
+    background-color: rgba(31, 29, 26, 0.4);
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.btn2{
+    background-color: var(--primary-text-color);
+    color: var(--secondary-text);
+}

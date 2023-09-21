@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+:root {
+    --primary-color: #1F1D1A;
+    --secondary-color: #fed243;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --yellow-color: #ffdb66;
+    --primary-text-color: #FEF9EE;
+    --secondary-text: #e09e0d;
+    --grey-color: #232323;
+    --light-color: #353535;
+    --primary-font: 'League Spartan', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.displayOne {
+    font-family: var(--primary-font);
+    color: var(--black-color);
+    /* font-size: 72px; */
+    font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.displayTwo {
+    font-family: var(--primary-font);
+    color: var(--black-color);
+    font-weight: 400;
+    font-size: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+.displayThree {
+    font-family: var(--primary-font);
+    color: var(--black-color);
+    font-weight: 400;
+    font-size: 32px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.displayFour {
+    font-size: 24px;
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+.displayFive {
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.displaySix {
+    color: var(--yellow-color);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+}
+
+.displaySeven {
+    color: var(--primary-text-color);
+    /* font-size: 72px; */
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+
+.displayEight {
+    color: var(--primary-text-color);
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+.displayNine {
+    color: var(--white-color);
+    font-size: 32px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+.displayTen {
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: var(--white-color);
+}
+
+.displayEleven {
+    color: var(--black-color);
+    font-size: 32px;
+    font-family: var(--primary-font);
+    font-weight: 400;
 }

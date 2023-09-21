@@ -1,0 +1,14 @@
+.solutionsec{
+    background-image: url("../../assets/images/pexels-mikhail-nilov-6957992-1915x1109.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 610px;
+}
+.solution{
+    background-color: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
